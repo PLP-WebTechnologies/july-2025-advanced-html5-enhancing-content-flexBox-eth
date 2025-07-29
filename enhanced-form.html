@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enhanced HTML5 Page with Media and Forms</title>
+  <meta name="description" content="A multi-section HTML5 page demonstrating lists, tables, media, and a fully validated form using semantic tags.">
+  <meta name="keywords" content="HTML5, form validation, semantic tags, accessibility, tables, media, lists">
+  <meta name="author" content="Tsegaye Girma" />
+</head>
+<body>
+
+  <header>
+    <h1>Enhanced HTML5 Page</h1>
+    <p>Organized Content, Media, and Smart Forms</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Favorite Programming Languages</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+      </ul>
+
+      <h2>Learning Roadmap</h2>
+      <ol>
+        <li>Master HTML & CSS</li>
+        <li>Learn JavaScript</li>
+        <li>Understand Frontend Frameworks</li>
+        <li>Explore Backend Development</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Course Schedule</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Module</th>
+            <th>Topic</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>HTML & Accessibility</td>
+            <td>2 Weeks</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>CSS & Layout</td>
+            <td>2 Weeks</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>JavaScript Basics</td>
+            <td>3 Weeks</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Media Gallery</h2>
+
+      <article>
+        <h3>Sample Image</h3>
+        <img src="https://via.placeholder.com/400x200" alt="Placeholder image for sample media content" />
+      </article>
+
+      <article>
+        <h3>Sample Audio</h3>
+        <audio controls>
+          <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element. Here is a <a href="https://www.w3schools.com/html/horse.mp3">download link</a>.
+        </audio>
+      </article>
+
+      <article>
+        <h3>Sample Video</h3>
+        <video width="400" controls>
+          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+          Your browser does not support the video element. You can <a href="https://www.w3schools.com/html/mov_bbb.mp4">download the video</a> instead.
+        </video>
+      </article>
+    </section>
+
+    <section>
+      <h2>Registration Form</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="fullname">Full Name *</label>
+          <input type="text" id="fullname" name="fullname" required minlength="3" placeholder="Your full name" />
+
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" required placeholder="example@domain.com" />
+
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" min="16" max="100" placeholder="16 - 100" />
+
+          <label for="dob">Date of Birth</label>
+          <input type="date" id="dob" name="dob" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferences</legend>
+
+          <label for="language">Preferred Programming Language *</label>
+          <select id="language" name="language" required>
+            <option value="">--Select--</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+            <option value="python">Python</option>
+          </select>
+
+          <label for="bio">Short Bio</label>
+          <textarea id="bio" name="bio" rows="4" placeholder="Write something about yourself..."></textarea>
+
+          <label>
+            <input type="checkbox" name="terms" required />
+            I agree to the terms and conditions *
+          </label>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Enhanced HTML5 Assignment. All Rights Reserved.</p>
+  </footer>
+
+</body>
+                           </html>
